@@ -41,3 +41,7 @@ end
 def number_to_short_month_name(month_number)
   return number_to_full_month_name(month_number).slice(0,3)
 end
+
+def volume_of_cube(side)
+  return side *= 3
+end

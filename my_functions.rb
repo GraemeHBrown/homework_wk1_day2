@@ -37,7 +37,7 @@ end
 def number_to_full_month_name(month_number)
   return Date::MONTHNAMES[month_number]
 end
-//# TODO: try this with substring
+
 def number_to_short_month_name(month_number)
   return number_to_full_month_name(month_number).slice(0,3)
 end

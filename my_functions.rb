@@ -48,5 +48,10 @@ end
 
 def volume_of_sphere(radius)
   #this rounds to one decimal place
-  return volume = ((4.0/3.0) * (Math::PI) * (radius**3)).round(1)
+  return ((4.0/3.0) * (Math::PI) * (radius**3)).round(1)
+end
+
+def fahrenheit_to_celsius(fahrenheit_value)
+  celsius = ((fahrenheit_value - 32)/1.8000).round(1)
+  return celsius
 end

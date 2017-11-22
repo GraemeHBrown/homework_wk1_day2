@@ -1,4 +1,5 @@
 require("minitest/autorun")
+require("minitest/rg")
 require_relative("../my_functions")
 
 class MyFunctionsTest < MiniTest::Test
@@ -63,7 +64,7 @@ class MyFunctionsTest < MiniTest::Test
   #Given the length of a side of a cube calculate the volume
   def test_volume_of_cube()
     volume = volume_of_cube(3)
-    assert_equal(9, volume)
+    assert_equal(27, volume)
   end
 
   #Given the radius of a sphere calculate the volume
